@@ -1,0 +1,1 @@
+{'geometry': 0, 'arithmetic': 1, 'probability-statistics': 2, 'algebra': 3, 'logics': 4, 'analytic-geometry': 5, 'calculus': 6, 'biology': 7}
