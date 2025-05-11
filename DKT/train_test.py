@@ -75,6 +75,7 @@ def train_model(args):
         if logger.should_stop_early():
             break
         print("Total Loss", total_loss)
+        
     # 在训练结束后保存最佳模型
     model_save_path = f'../saved_models/dkt_{args.data_set}.pt'
     torch.save({
